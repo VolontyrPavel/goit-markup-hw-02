@@ -8,9 +8,8 @@
     --footer-text-color: #E7E9FC;
     --hover-text-color: #FFFFFF;
 
-    --header-background: #FFFFFF;
+    --primary-background: #FFFFFF;
     --button-hero-background: #4D5AE5;
-    --primary-background: #E5E5E5;
     --secondary-background: #F4F4FD;
     --footer-background: #2E2F42;
     --hover-background: #404BBF;
@@ -22,6 +21,9 @@
     list-style: none;
 }
 /* класи */
+body {
+    background: var(--primary-background);
+}
 .logo {
     color: var(--logo-text-color);
 }
@@ -30,11 +32,9 @@
 }
 .navy {
     color: var(--navy-text-color);
-    background: var(--header-background);
 }
 .address {
     color: var(--text-color);
-    background: var(--header-background);
 }
 .hero {
     color: var(--hero-text-color);
