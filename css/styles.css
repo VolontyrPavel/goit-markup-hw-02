@@ -1,0 +1,75 @@
+/* кольори */
+:root {
+    --logo-text-color: #4D5AE5;
+    --title-text-color: #2E2F42;
+    --text-color: #434455;
+    --hero-text-color: #FFFFFF;
+    --footer-logo-color: #F4F4FD;
+    --footer-text-color: #E7E9FC;
+    --hover-text-color: #FFFFFF;
+
+    --header-background: #FFFFFF;
+    --button-hero-background: #4D5AE5;
+    --primary-background: #E5E5E5;
+    --secondary-background: #F4F4FD;
+    --footer-background: #2E2F42;
+    --hover-background: #404BBF;
+}
+/* шрифти */
+
+/* додадково */
+.list {
+    list-style: none;
+}
+/* класи */
+.logo {
+    color: var(--logo-text-color);
+}
+.logo-header {
+    color: var(--title-text-color);
+}
+.navy {
+    color: var(--navy-text-color);
+    background: var(--header-background);
+}
+.address {
+    color: var(--text-color);
+    background: var(--header-background);
+}
+.hero {
+    color: var(--hero-text-color);
+    background: var(--footer-background);
+}
+.primary-button {
+    color: var(--hero-text-color);
+    background: var(--button-hero-background);
+}
+.secondary-button {
+    color: var(--logo-text-color);
+    background: var(--secondary-background);
+}
+.secondary-button:hover,
+.secondary-button:focus {
+    color: var(--hover-text-color);
+    background: var(--hover-background);
+}
+.primary-section {
+    background: var(--primary-background);
+}
+.secondary-section {
+    background: var(--secondary-background);
+}
+h2, h3 {
+    color: var(--title-text-color);
+}
+p {
+    color: var(--text-color);
+}
+footer {
+    color: var(--footer-text-color);
+    background: var(--footer-background);
+}
+.logo-footer {
+    color: var(--footer-logo-color);
+}
+/* Avtark maid it */
