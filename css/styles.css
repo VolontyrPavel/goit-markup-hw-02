@@ -14,8 +14,6 @@
     --footer-background: #2E2F42;
     --hover-background: #404BBF;
 }
-/* шрифти */
-
 /* додадково */
 .list {
     list-style: none;
@@ -23,30 +21,53 @@
 /* класи */
 body {
     background: var(--primary-background);
+    font-family: roboto, sans-serif;
 }
 .logo {
     color: var(--logo-text-color);
+    
 }
-.logo-header {
-    color: var(--title-text-color);
+    .logo-header {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
 }
 .navy {
     color: var(--navy-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
 }
 .address {
     color: var(--text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
 }
 .hero {
     color: var(--hero-text-color);
     background: var(--footer-background);
+    font-style: 400;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
 }
 .primary-button {
     color: var(--hero-text-color);
     background: var(--button-hero-background);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
 }
 .secondary-button {
     color: var(--logo-text-color);
     background: var(--secondary-background);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
 }
 .secondary-button:hover,
 .secondary-button:focus {
@@ -59,17 +80,36 @@ body {
 .secondary-section {
     background: var(--secondary-background);
 }
-h2, h3 {
+h2 {
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+} 
+h3 {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
 }
 p {
     color: var(--text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
 }
 footer {
     color: var(--footer-text-color);
     background: var(--footer-background);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
 }
 .logo-footer {
     color: var(--footer-logo-color);
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
 }
 /* Avtark maid it */
