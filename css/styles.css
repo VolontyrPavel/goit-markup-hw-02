@@ -18,92 +18,96 @@
 .list {
     list-style: none;
 }
+.link {
+    text-decoration: none;
+}
 /* класи */
 body {
-    background: var(--primary-background);
-    font-family: roboto, sans-serif;
+    background-color: var(--primary-background);
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 16px;
 }
 .logo {
     color: var(--logo-text-color);
     
 }
-    .logo-header {
+.logo-header {
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
 }
-.navy {
-    color: var(--navy-text-color);
+.nav-link {
     font-weight: 500;
-    font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
-.address {
+.address-link {
     color: var(--text-color);
-    font-weight: 400;
-    font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .hero {
+    background-color: var(--footer-background);
+}
+.hero-title {
     color: var(--hero-text-color);
-    background: var(--footer-background);
-    font-style: 400;
-    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 .primary-button {
     color: var(--hero-text-color);
-    background: var(--button-hero-background);
+    background-color: var(--button-hero-background);
     font-weight: 500;
-    font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
+    cursor: pointer;
 }
 .secondary-button {
     color: var(--logo-text-color);
-    background: var(--secondary-background);
+    background-color: var(--secondary-background);
     font-weight: 500;
-    font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     text-align: center;
+    cursor: pointer;
 }
 .secondary-button:hover,
 .secondary-button:focus {
     color: var(--hover-text-color);
-    background: var(--hover-background);
+    background-color: var(--hover-background);
 }
 .primary-section {
-    background: var(--primary-background);
+    background-color: var(--primary-background);
 }
 .secondary-section {
-    background: var(--secondary-background);
+    background-color: var(--secondary-background);
 }
-h2 {
+.section-title {
     color: var(--title-text-color);
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 } 
-h3 {
+.section-suptext {
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
-p {
+.section-text {
     color: var(--text-color);
-    font-weight: 400;
-    font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
-footer {
-    color: var(--footer-text-color);
-    background: var(--footer-background);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
+.footer {
+    background-color: var(--footer-background);
 }
 .logo-footer {
     color: var(--footer-logo-color);
@@ -111,5 +115,12 @@ footer {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
 }
+.footer-text {
+    color: var(--footer-text-color);
+    background-color: var(--footer-background);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 /* Avtark maid it */
