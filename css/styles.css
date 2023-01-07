@@ -33,7 +33,7 @@ body {
 }
 .logo-header {
     color: var(--title-text-color);
-    font-family: 'Raleway';
+    font-family: 'Raleway', 'sans-serif';
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
@@ -121,7 +121,7 @@ body {
 }
 .logo-footer {
     color: var(--footer-logo-color);
-    font-family: 'Raleway';
+    font-family: 'Raleway', 'sans-serif';
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
@@ -132,4 +132,5 @@ body {
     color: var(--footer-text-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
 /* Avtark maid it */
